@@ -15,6 +15,7 @@ namespace dotnetcore
             resultado =  conta + ((conta * taxa )/100);
             
             Console.Write($ "Sua conta: R{conta:c} + {taxa:%} da o valor total de R{resultado:c}");
+	    //mostrando o resultado da conta digitada,taxa escolhida e preco total a pagar
         }
    }
 }
